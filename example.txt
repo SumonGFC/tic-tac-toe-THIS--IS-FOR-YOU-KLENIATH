@@ -1,0 +1,11 @@
+> Would you like to play? (y/n): y
+> rand(x, o) goes first!
+> TABLE
+> Make your move x ([TMB][LMR]):  asdasdf
+> Unknown Command 'asdasdf'
+> Make your move x: MM
+> TABLE
+...
+> TABLE
+> X wins!
+> Would you like to play again? (y/n): 
