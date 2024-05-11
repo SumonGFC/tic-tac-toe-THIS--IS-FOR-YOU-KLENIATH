@@ -54,38 +54,3 @@ class GameBoard
     return true
   end
 end
-
-
-# test_board = GameBoard.new
-# 
-# 
-# status = test_board.update_board(:add, "X", [0,0])
-# status = test_board.update_board(:add, "X", [0,2])
-# status = test_board.update_board(:add, "X", [0,4])
-# status = test_board.update_board(:add, "X", [4,0])
-# status = test_board.update_board(:add, "X", [2,4])
-# status = test_board.update_board(:add, "X", [4,4])
-# test_board.state.each do |row|
-#   puts row.join
-# end
-# 
-# puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-# status = test_board.update_board(:reset)
-# test_board.state.each do |row|
-#   puts row.join
-# end
-# 
-# 
-# puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-# status = test_board.update_board(:add, "O", [2,0])
-# test_board.state.each do |row|
-#   puts row.join
-# end
-# 
-# 
-# puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-# status = test_board.update_board(:reset)
-# test_board.state.each do |row|
-#   puts row.join
-# end
-

@@ -82,12 +82,12 @@ class GameManager
 
   def report_game_result
     print_board
-    puts 'Game Over. Good work.'
+    puts "#{@players[@curr_player][:id]} wins!. Good work."
   end
 
   def print_board
     @game_board.state.each do |row|
-      puts row.join
+      puts "\t#{row.join}"
     end
   end
 
